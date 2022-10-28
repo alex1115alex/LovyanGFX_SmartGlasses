@@ -63,7 +63,7 @@ namespace lgfx
   #define ISR_END()
   #define MEMCPY_BEGIN()
   #define MEMCPY_END()
-  #define LOVYAN_USE_CORE_NUM 0
+  #define LOVYAN_USE_CORE_NUM APP_CPU_NUM
 
   // PSRAM使用時、表示内容を先行してSRAMにmemcpyするためのクラス;
   class scanline_cache_t
